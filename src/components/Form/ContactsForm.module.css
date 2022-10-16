@@ -1,0 +1,35 @@
+.formWrapper {
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 60px;
+}
+.require {
+    color: red;
+    width: 20px;
+    height: 20px;
+}
+.require::before {
+    content: "*";
+    color: red;
+}
+.inputWrapper {
+    border-bottom: 1px solid lightgray;
+}
+.input {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-bottom: -16px;
+}
+
+::-webkit-input-placeholder {
+    color: #CCCCCC;
+}
+.placeholder {
+    color: #CCCCCC;
+    margin-left: -10px;
+    font-family: 'Gilroy-Thin', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
