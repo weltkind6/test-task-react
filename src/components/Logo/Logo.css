@@ -6,3 +6,11 @@
     line-height: 38px;
     cursor: pointer;
 }
+
+.black {
+    color: #303030;
+}
+
+.white {
+    color: #FFFFFF;
+}

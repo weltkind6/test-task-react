@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <div className={styles.wrapper}>
-                <Logo/>
+                <Logo color={'black'}/>
                 <MobileMenu/>
             </div>
         </div>

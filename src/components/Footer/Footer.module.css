@@ -1,4 +1,67 @@
 .wrapper {
     background: linear-gradient(93.29deg, #388AF3 21.04%, #A483E2 88.77%);
-    padding: 30px 40px 10px 40px;
+    padding: 30px 40px 20px 40px;
+    position: relative;
+}
+
+.navBlock {
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.menuList {
+    padding: 0;
+}
+
+.menuList:first-child {
+    margin-bottom: 50px;
+}
+
+.menuList:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.menuList a {
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: 'Gilroy', system-ui;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+a:hover {
+    color: #A483E2;
+}
+
+
+.menuTitle {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.privacy {
+    font-style: normal;
+    font-family: 'Gilroy', system-ui;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 55px;
+}
+
+.footerDote {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin: 5px 0 0 10px;
 }

@@ -1,38 +1,46 @@
 @import url('http://fonts.cdnfonts.com/css/gilroy-medium');
+
 @font-face {
-  font-family: 'Gilroy-Thin';
-  src: url(/src/fonts/gilroy-thin.ttf);
-}
-@font-face {
-  font-family: 'Gilroy-Bold';
-  src: url(/src/fonts/gilroy-bold.ttf);
+    font-family: 'Gilroy-Thin';
+    src: url(/src/fonts/gilroy-thin.ttf);
 }
 
 @font-face {
-  font-family: 'Circe Regular';
-  src: url(/src/fonts/Circe-Regular.ttf);
+    font-family: 'Gilroy-Bold';
+    src: url(/src/fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+    font-family: 'Circe Regular';
+    src: url(/src/fonts/Circe-Regular.ttf);
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
+
+li {
+    list-style: none;
+}
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 main {
-  margin: 0 auto;
-  width: 414px;
+    margin: 0 auto;
+    width: 414px;
 }
 
 .wrapper {
-  font-family: 'Gilroy', sans-serif;
-  padding: 30px 40px 10px 40px;
-  background: #FFFFFF;
-  border: 1px solid #E2E2E2;
+    font-family: 'Gilroy', sans-serif;
+    padding: 30px 40px 10px 40px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
 }
