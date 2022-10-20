@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+a {
+    text-decoration: none !important;
+}
 
 li {
     list-style: none;
@@ -43,4 +46,13 @@ main {
     padding: 30px 40px 10px 40px;
     background: #FFFFFF;
     border: 1px solid #E2E2E2;
+}
+
+@media (min-width: 922px) {
+    .wrapper {}
+
+    main {
+        width: 922px;
+        margin: 0 auto;
+    }
 }

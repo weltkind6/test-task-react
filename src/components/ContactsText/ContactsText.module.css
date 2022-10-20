@@ -2,14 +2,21 @@
     margin: 60px 0 80px 0;
 }
 .text {
+    font-family: Gilroy-Thin, sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #343434;
     font-style: normal;
-    font-weight: 400;
-    margin-top: 20px;
+    font-weight: 800;
+    margin-top: 10px;
 }
 .link {
     color: #388AF3;
     font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .text {
+        max-width: 520px;
+    }
 }

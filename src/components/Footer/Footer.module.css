@@ -51,11 +51,15 @@ a:hover {
 .privacy {
     font-style: normal;
     font-family: 'Gilroy', system-ui;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     margin-top: 55px;
+}
+.privacy > div:first-child {
+    margin-bottom: 10px;
 }
 
 .footerDote {
@@ -64,4 +68,26 @@ a:hover {
     border-radius: 50%;
     background: #FFFFFF;
     margin: 5px 0 0 10px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 810px;
+    }
+    .navBlock {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+    }
+    .menuTitle {
+        margin-bottom: 25px;
+    }
+    li {
+        margin-bottom: 20px;
+    }
+    .privacy {
+        width: 735px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

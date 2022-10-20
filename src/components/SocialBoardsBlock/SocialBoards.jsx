@@ -3,7 +3,7 @@ import whatsApp from '../../img/whatsapp.svg'
 import telegram from '../../img/telegram.svg'
 import styles from './SocialBoars.module.css'
 
-const SocialBoars = () => {
+const SocialBoards = () => {
     return (
         <div className={styles.wrapper}>
             <a href="#">
@@ -16,4 +16,4 @@ const SocialBoars = () => {
     );
 };
 
-export default SocialBoars;
+export default SocialBoards;

@@ -2,3 +2,9 @@
     display: flex;
     cursor: pointer;
 }
+
+@media (min-width: 922px) {
+    .wrapper {
+       display: none;
+    }
+}

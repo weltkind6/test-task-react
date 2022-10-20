@@ -1,0 +1,25 @@
+.wrapper {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        display: flex;
+        cursor: pointer;
+    }
+    .img {
+        width: 13px;
+        margin-left: 20px;
+
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: #E2E2E2;
+        border: 1px solid #E2E2E2;
+        position: absolute;
+        top: -20%;
+        right: -2%;
+    }
+}

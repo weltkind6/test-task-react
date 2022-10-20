@@ -1,0 +1,21 @@
+.dote {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #388AF3;
+    margin: 5px 0 0 10px;
+    position: absolute;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    cursor: pointer;
+}

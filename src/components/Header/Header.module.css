@@ -2,5 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid crimson;
+    position: relative;
+}
+.descTop {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .descTop {
+        display: flex;
+    }
+    .headerTitle {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #388AF3;
+        margin-left: 60px;
+        text-decoration: none;
+    }
+    .startProject {
+        display: flex;
+        align-items: center;
+    }
 }
