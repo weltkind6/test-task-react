@@ -8,7 +8,7 @@ const ContactsForm = () => {
     return (
         <div>
             <div className={styles.inputContainer}>
-               <div className={styles.test}>
+               <form className={styles.form} id="login">
                    <div className={styles.formWrapper}>
                        <FormGroup floating>
                            <Input
@@ -37,7 +37,9 @@ const ContactsForm = () => {
                            </Label>
                        </FormGroup>
                    </div>
-               </div>
+                   <SendButton />
+                   <button type="submit">send</button>
+               </form>
                 <div className={styles.formWrapper}>
                     <FormGroup floating>
                         <Input
@@ -54,7 +56,6 @@ const ContactsForm = () => {
                 </div>
             </div>
             <PrivacyPolicy />
-            <SendButton/>
         </div>
     );
 };

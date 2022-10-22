@@ -28,3 +28,27 @@
         align-items: center;
     }
 }
+@media (min-width: 1920px) {
+    .wrapper {
+        width: 1820px;
+        margin-bottom: 120px;
+    }
+    .descTop {
+        display: flex;
+    }
+    .headerTitle {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #388AF3;
+        margin-left: 60px;
+        text-decoration: none;
+    }
+    .startProject {
+        display: flex;
+        align-items: center;
+    }
+}

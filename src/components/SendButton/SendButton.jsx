@@ -6,7 +6,7 @@ import classNames from "classnames";
 const SendButton = () => {
     const [animate, setAnimate] = useState(false);
     const [isMessageSend, setIsMessageSend] = useState(false)
-    const handleClick = () => {
+    const handleClick = (e) => {
         setAnimate(!animate)
         setTimeout(() => {
             setIsMessageSend(true)
@@ -14,7 +14,11 @@ const SendButton = () => {
     };
 
     return (
-        <div className={classNames(styles.wrapper, isMessageSend && styles.wrapperSent)}  onClick={handleClick}>
+        <button
+            className={classNames(styles.wrapper, isMessageSend && styles.wrapperSent)}
+            onClick={handleClick}
+            type="submit"
+        >
             {isMessageSend ? <div className={styles.sentMessage}>Ваше сообщение отправлено!</div> : (
                 <div className={classNames(styles.container)}>
                     <img
@@ -28,7 +32,7 @@ const SendButton = () => {
                     <div className={styles.send}>Отправить</div>
                 </div>
             )}
-        </div>
+        </button>
     );
 };
 

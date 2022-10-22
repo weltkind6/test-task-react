@@ -34,6 +34,7 @@ li {
     font-size: 14px;
     line-height: 17px;
 }
+
 a:hover {
     color: #A483E2;
 }
@@ -58,6 +59,7 @@ a:hover {
     line-height: 17px;
     margin-top: 55px;
 }
+
 .privacy > div:first-child {
     margin-bottom: 10px;
 }
@@ -74,20 +76,54 @@ a:hover {
     .container {
         width: 810px;
     }
+
     .navBlock {
         display: flex;
         justify-content: space-between;
         width: 700px;
     }
+
     .menuTitle {
         margin-bottom: 25px;
     }
+
     li {
         margin-bottom: 20px;
     }
+
     .privacy {
         width: 735px;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .navBlock {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        width: 1200px;
+        margin-left: 360px;
+    }
+    .privacy {
+        display: none;
+    }
+
+    .menuList:first-child {
+        margin-bottom: 0;
+    }
+
+    .menuList:nth-child(2) {
+        margin-bottom: 0;
+    }
+    .wrapper {
+        padding: 30px 40px 0 40px;
     }
 }

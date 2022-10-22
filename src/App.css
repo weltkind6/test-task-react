@@ -49,10 +49,18 @@ main {
 }
 
 @media (min-width: 922px) {
-    .wrapper {}
-
     main {
         width: 922px;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    main {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    .descTop-container {
+        padding: 0 360px;
     }
 }

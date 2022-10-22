@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from "../Logo/Logo";
 import styles from './Footer.module.css'
-import SocialBoards from "../SocialBoardsBlock/SocialBoards";
+import SocialBoards from "../SocialBoards/SocialBoards";
 import arrow from '../../img/downloadArrow.svg'
 
 const Footer = () => {

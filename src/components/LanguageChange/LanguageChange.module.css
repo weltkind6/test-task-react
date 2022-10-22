@@ -19,3 +19,14 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.color1 {
+    color: #979BAD;
+}
+.color2 {
+    color: #388AF3;
+}
+
+.doteVision {
+    font-size: 22px;
+}

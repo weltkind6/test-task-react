@@ -4,6 +4,7 @@ import MobileMenu from "../MobileMenu/MobileMenu";
 import styles from './Header.module.css'
 import LanguageChange from "../LanguageChange/LanguageChange";
 import StartProjectButton from "../StartProjectButton/StartProjectButton";
+import DescTopMenu from "../DescTopMenu/DesctopMenu";
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
             <div className={styles.wrapper}>
                 <Logo color={'black'}/>
                 <MobileMenu/>
+                <DescTopMenu />
                <div className={styles.descTop}>
                    <LanguageChange />
                    <div className={styles.startProject}>

@@ -11,9 +11,11 @@ function App() {
     <main>
         <div className="wrapper">
             <Header />
-            <MainContacts />
-            <ContactsText />
-            <ContactsForm />
+            <div className="descTop-container">
+                <MainContacts />
+                <ContactsText />
+                <ContactsForm />
+            </div>
         </div>
         <Footer />
     </main>

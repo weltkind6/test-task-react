@@ -10,7 +10,8 @@
 }
 .socialIcon {
     width: 34px;
-    height: auto;transition: 1.5s;
+    height: auto;
+    transition: 1.5s;
 
 }
 .socialIcon:hover {
@@ -22,5 +23,12 @@
     .wrapper {
         top: 25%;
         left: 65%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+        top: 55%;
+        left: 75%;
     }
 }

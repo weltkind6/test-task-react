@@ -1,0 +1,47 @@
+.wrapper {
+    display: none;
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+        display: block;
+        height: 25px;
+    }
+    .descTopMenuNav {
+        display: flex;
+        font-family: Gilroy-Bold, sans-serif;
+        justify-content: space-between;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #343434;
+        width: 360px;
+        padding: 0;
+        margin: 0;
+    }
+    .descTopMenuNav > li {
+        margin-bottom: 0;
+    }
+    .descTopMenuNav a {
+        color: #343434;
+    }
+    .dote {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #388AF3;
+        margin-top: 5px;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .color1 {
+        color: #343434;
+    }
+    .color2 {
+        color: #388AF3 !important;
+    }
+
+}

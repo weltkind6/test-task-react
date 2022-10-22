@@ -21,3 +21,9 @@ a {
         width: 360px;
     }
 }
+
+@media (min-width: 1920px) {
+    .wrapper {
+        margin-bottom: 160px;
+    }
+}
