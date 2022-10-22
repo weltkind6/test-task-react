@@ -6,7 +6,7 @@ import classNames from "classnames";
 const SendButton = () => {
     const [animate, setAnimate] = useState(false);
     const [isMessageSend, setIsMessageSend] = useState(false)
-    const handleClick = (e) => {
+    const handleClick = () => {
         setAnimate(!animate)
         setTimeout(() => {
             setIsMessageSend(true)

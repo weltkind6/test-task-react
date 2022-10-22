@@ -85,7 +85,7 @@
 @media (min-width: 1920px) {
     .wrapper {
         position: absolute;
-        top: -25%;
-        left: 110%;
+        top: 50%;
+        left: 70%;
     }
 }
