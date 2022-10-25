@@ -3,7 +3,7 @@ import styles from './SendButton.module.css'
 import planeImg from '../../img/send.svg'
 import classNames from "classnames";
 
-const SendButton = () => {
+const SendButton = ({input, isValidInput}) => {
     const [animate, setAnimate] = useState(false);
     const [isMessageSend, setIsMessageSend] = useState(false)
     const handleClick = () => {
@@ -18,6 +18,7 @@ const SendButton = () => {
             className={classNames(styles.wrapper, isMessageSend && styles.wrapperSent)}
             onClick={handleClick}
             type="submit"
+            disabled={false}
         >
             {isMessageSend ? <div className={styles.sentMessage}>Ваше сообщение отправлено!</div> : (
                 <div className={classNames(styles.container)}>
